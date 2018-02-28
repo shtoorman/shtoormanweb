@@ -151,7 +151,7 @@
 		background-position:center bottom, left top;
 		background-repeat:repeat-x;
 		overflow:hidden;
-		background-color:#fdd42f;		
+		background-color:#fdd42f;
 	}
 	/* About */
 	.about {
@@ -264,6 +264,10 @@
 		background-image:url(../images/portfolio-icon.png);
 		background-position:center 35px;
 	}
+	.tabs li .tab-games {
+		background-image:url(../images/portfolio-icon.png);
+		background-position:center 35px;
+	}
 	.tabs li .tab-contact {
 		background-image:url(../images/contact-icon.png);
 		background-position:center 41px;
@@ -276,6 +280,9 @@
 		background-image:url(../images/resume-icon-active.png);
 	}
 	.tabs .active .tab-portfolio {
+		background-image:url(../images/portfolio-icon-active.png);
+	}
+	.tabs .active .tab-games {
 		background-image:url(../images/portfolio-icon-active.png);
 	}
 	.tabs .active .tab-contact {
@@ -563,6 +570,80 @@
 		-webkit-border-radius: 3px;
 		font-size: 13px;
 	}
+	/*-------------------------------------------------------*/
+	#games {
+		padding:30px 0;
+		overflow:hidden;
+	}
+	.games-info, .contact-form {
+		float:left;
+		padding:0 20px;
+	}
+	.games-info {
+		width:250px;
+	}
+	.games-form {
+		width:530px;
+	}
+	/* Contact info */
+	.games-info ul {
+		float:left;
+		margin-left:11px;
+		border-left:1px solid #fadc66;
+		padding-left:18px;
+	}
+	.games-info ul li {
+		font-size:13px;
+		line-height:20px;
+		color: #666;
+		overflow: hidden;
+	}
+	/* Contact Form */
+	#gamesform {
+		padding-left:30px;
+	}
+	#gamesform p {
+		margin-bottom:15px;
+	}
+	#gamesform p label {
+		display:block;
+		color:#999;
+		margin-bottom:8px;
+		font-size:13px;
+	}
+	#gamesform .input {
+		line-height: 20px;
+		height: 20px;
+		width:60%;
+	}
+	#gamesform .textarea {
+		width:95%;
+	}
+	#gamesform .submit {
+		color:#fff;
+		background-color: #666;
+		padding:8px;
+		border:none;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		cursor:pointer;
+		font-size:13px;
+	}
+	#gamesform .submit:hover {
+		background-color: #fdc62a;
+	}
+	#gamesform .input, .textarea {
+		padding:6px;
+		background-color:#f5f5f5;
+		border: 1px solid #CCC;
+		color:#999;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		font-size: 13px;
+	}
+	/*-------------------------------------------------------*/
 	.success, .error {
 		padding:10px;
 		margin-bottom:10px;

@@ -18,7 +18,7 @@
     <script type="text/javascript" src="js/jquery.adipoli.min.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript" src="js/jquery.gmap.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 
@@ -69,7 +69,7 @@
                 <li><label>Адрес</label><span>г.Сумы 40035 Украина</span></li>
                 <li><label>Email</label><span>shtoorman2683@gmail.com</span></li>
                 <li><label>Телефон</label><span>+380997714691</span></li>
-                <li><label>Website</label><span><a href="http://shtoorman.mooo.com/" target="_blank">http://shtoorman.mooo.com/</a> </span></li>"
+                <li><label>Website</label><span><a href="http://shtoorman.mooo.com/" target="_blank">http://shtoorman.com/</a> </span></li>
             </ul>
             <!-- /Personal info section -->
         </div>
@@ -81,6 +81,7 @@
                 <li><a href="#profile" class="tab-profile">Профиль</a></li>
                 <li><a href="#resume" class="tab-resume">Резюме</a></li>
                 <li><a href="#portfolio" class="tab-portfolio">Портфолио</a></li>
+                <!--li><a href="#games" class="tab-games">Игры</a></li-->
                 <li><a href="#contact" class="tab-contact">Контакты</a></li>
             </ul>
         </div>
@@ -222,67 +223,67 @@
 
             <ul id="portfolio-filter">
                 <li><a href="#" class="current" data-filter="*">All</a></li>
-                <li><a href="#" data-filter=".webdesign">WebDesign</a></li>
-                <li><a href="#" data-filter=".photoghraphy">Photoghraphy</a></li>
+                <li><a href="#" data-filter=".webdesign">Сертификаты</a></li>
+                <!--li><a href="#" data-filter=".photoghraphy">Photoghraphy</a></li>
                 <li><a href="#" data-filter=".illustration">Illustration</a></li>
                 <li><a href="#" data-filter=".print">Print</a></li>
-                <li><a href="#" data-filter=".animation">Animation</a></li>
+                <li><a href="#" data-filter=".animation">Animation</a></li-->
             </ul>
-            <div class="extra-text">Some of the projects i'm proud with</div>
+            <div class="extra-text">Мои сертификаты пройденных курсов.</div>
             <ul id="portfolio-list">
-                <li class="illustration print">
+                <li class="webdesign">
                     <a href="portfolio/1.jpg" rel="portfolio">
                         <img src="portfolio/1-thumb.jpg" alt="">
-                        <h2 class="title">Hello Goodbye</h2>
-                        <span class="categorie">Print / Illustration</span>
+                        <h2 class="title">HTML</h2>
+                        <span class="categorie">Web </span> <!--Print / Illustration-->
                     </a>
                 </li>
-                <li class="photoghraphy">
+                <li class="webdesign">
                     <a href="portfolio/2.jpg" rel="portfolio">
                         <img src="portfolio/2-thumb.jpg" alt="">
-                        <h2 class="title">Help us</h2>
-                        <span class="categorie">Photography</span>
+                        <h2 class="title">PHP</h2>
+                        <span class="categorie">Web</span> <!--Photography-->
                     </a>
                 </li>
                 <li class="webdesign">
                     <a href="portfolio/3.jpg" rel="portfolio">
                         <img src="portfolio/3-thumb.jpg" alt="">
-                        <h2 class="title">Snow time</h2>
-                        <span class="categorie">Webdesign</span>
+                        <h2 class="title">Python</h2>
+                        <span class="categorie">Web</span>
                     </a>
                 </li>
-                <li class="animation print">
+                <li class="webdesign">
                     <a href="portfolio/4.jpg" rel="portfolio">
                         <img src="portfolio/4-thumb.jpg" alt="">
-                        <h2 class="title">Sunshine</h2>
-                        <span class="categorie">Print / Animation</span>
+                        <h2 class="title">SQL</h2>
+                        <span class="categorie">Web</span>><!--Print / Animation-->
                     </a>
                 </li>
-                <li class="animation">
+                <li class="webdesign">
                     <a href="portfolio/5.jpg" rel="portfolio">
                         <img src="portfolio/5-thumb.jpg" alt="">
-                        <h2 class="title">Come together</h2>
-                        <span class="categorie">Animation</span>
+                        <h2 class="title">Introduction to architecture</h2>
+                        <span class="categorie">Web</span> <!--Animation-->
                     </a>
                 </li>
-                <li class="webdesign print">
+                <li class="webdesign">
                     <a href="portfolio/6.jpg" rel="portfolio">
                         <img src="portfolio/6-thumb.jpg" alt="">
-                        <h2 class="title">The yellow</h2>
-                        <span class="categorie">Webdesign / Print</span>
+                        <h2 class="title">Java</h2>
+                        <span class="categorie">Web </span> <!--Print-->
                     </a>
                 </li>
-                <li class="photoghraphy">
-                    <a href="portfolio/7.jpg" rel="portfolio">
-                        <img src="portfolio/7-thumb.jpg" alt="">
-                        <h2 class="title">Black bird</h2>
+                <li class="webdesign">
+                    <a href="portfolio/3.jpg" rel="portfolio">
+                        <img src="portfolio/3-thumb.jpg" alt="">
+                        <h2 class="title">Web</h2>
                         <span class="categorie">Photoghraphy</span>
                     </a>
                 </li>
-                <li class="illustration">
-                    <a href="portfolio/8.jpg" rel="portfolio">
-                        <img src="portfolio/8-thumb.jpg" alt="">
-                        <h2 class="title">Revolution</h2>
+                <li class="webdesign">
+                    <a href="portfolio/4.jpg" rel="portfolio">
+                        <img src="portfolio/4-thumb.jpg" alt="">
+                        <h2 class="title">Web</h2>
                         <span class="categorie">Illustration</span>
                     </a>
                 </li>
@@ -297,10 +298,10 @@
             <div class="contact-info">
                 <h3 class="main-heading"><span>Contact info</span></h3>
                 <ul>
-                    <li>Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia<br/><br/></li>
-                    <li>Email: John.smith@gmail.com</li>
-                    <li>Phone: +123 456 789 111</li>
-                    <li>Website: www.johnsmith.com</li>
+                    <li>Sumy 40035 Ukrainian<br/><br/></li>
+                    <li>Email: shtoorman2683@gmail.com</li>
+                    <li>Phone: +380997714691</li>
+                    <li>Website: http://shtoorman.mooo.com/</li>
                 </ul>
             </div>
             <!-- /Contact Info -->

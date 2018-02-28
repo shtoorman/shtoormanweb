@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 	var $logo 	= $('#logo');
 		
 	// Show logo 
-	$('.tab-resume,.tab-portfolio,.tab-contact').click(function() {
+	$('.tab-resume,.tab-portfolio,tab-games,.tab-contact').click(function() {
 	  $logo.fadeIn('slow');
 	});
 	// Hide logo
@@ -106,7 +106,7 @@ jQuery(document).ready(function(){
 	
 	// Needed variables
 	var $contactform 	= $('#contactform'),
-		$success		= 'Your message has been sent. Thank you!';
+		$success		= 'Ваше сообщение отправленно';
 		
 	$contactform.submit(function(){
 		$.ajax({
@@ -136,7 +136,7 @@ jQuery(document).ready(function(){
 	// Needed variables
 	var $map 				= $('#map'),
 		$tabContactClass 	= ('tab-contact'),
-		$address 			= 'Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia';
+		$address 			= 'Sumy 40035 Ukrainian';
 	
 	$content.bind('easytabs:after', function(evt,tab,panel) {
 		if ( tab.hasClass($tabContactClass) ) {
